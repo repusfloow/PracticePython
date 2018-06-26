@@ -1,0 +1,60 @@
+$ git config --global user.name ""
+
+$ git config --global user.email ""
+
+$ cd Desktop/
+
+~/Desktop
+$
+
+~/Desktop
+$ mkdir git_practice_1
+
+~/Desktop
+$ cd git_practice_1
+
+~/Desktop/git_practice_1
+$ git clone https://github.com/username/Python1.git
+Cloning into 'Python1'...
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+
+~/Desktop/git_practice_1
+$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+~/Desktop/git_practice_1
+$ ~/Desktop/git_practice_1/Python1
+bash: /c/Users/admin/Desktop/git_practice_1/Python1: Is a directory
+
+~/Desktop/git_practice_1
+$ cd ~/Desktop/git_practice_1/Python1
+
+~/Desktop/git_practice_1/Python1 (master)
+$ git add .
+
+~/Desktop/git_practice_1/Python1 (master)
+$ git commit -m "First two practices."
+[master 13c9f8a] First two practices.
+ 2 files changed, 129 insertions(+)
+ create mode 100644 Fahrenheit to Celsius.py
+ create mode 100644 Python Practice 1.py
+
+~/Desktop/git_practice_1/Python1 (master)
+$ git push origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.56 KiB | 798.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/username/Python1.git
+   de6b49a..13c9f8a  master -> master
+
+~/Desktop/git_practice_1/Python1 (master)
+$ ^C
+
+~/Desktop/git_practice_1/Python1 (master)
+$
+
